@@ -1,0 +1,13 @@
+/* Main stylesheet for Tea Cozy, project for Codecademy
+   Unit 4, days 9-13
+   J. Stuart Harris
+ */
+
+/* General style code for the entire website - defaults
+ */
+body {
+  font-family: Verdana;
+  background-color: white;
+  color: darkblue;
+  margin: 0 0;
+}
