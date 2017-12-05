@@ -6,14 +6,16 @@
 /* General style code for the entire website - defaults
  */
 body {
-  font-family: Verdana;
-  background-color: white;
-  color: darkblue;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 90%;
   margin: 0 0;
 }
 
 header {
-  padding: 10px 30px 10px 10px;
+  padding: 0 30px 0 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,14 +24,18 @@ header {
   top: 0;
   z-index: 5;
   background-color: black;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid seashell;
+  margin: 0;
 }
 
 #menulogo img {
-  width: 200px;
+  height: 50px;
+  padding: 9px 0;
 }
+
 header a {
-  color: white;
+  color: seashell;
+  text-decoration: underline;
 }
 
 header nav {
@@ -37,7 +43,76 @@ header nav {
   padding-right: 30px;
 }
 
+header nav span {
+  padding: 0 10px;
+}
+
 section {
   position: relative;
-  top: 150px;
+  top: 75px;
 }
+
+section img {
+  color: white;
+  width: 400px;
+}
+
+/* This section is for the Mission statement block
+ */
+
+#mission {
+  display: flex;
+  justify-content: center;
+}
+
+#mission div {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+#mission div h2 {
+  display: block;
+  top: 50px;
+  color: seashell;
+  font-size: 40px;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#mission div h4 {
+  display: block;
+  top: 80px;
+  color: seashell;
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Featured tea section (Tea of the month)
+   This consists of 5 images, 3 on the first row and two on the second row.
+   Images are centered on both axes and are 200px high X 300px wide.
+ */
+
+
+/* Store Locations subsection
+ */
+#locations {
+  background-image: url("../images/img-locations-background.jpg")
+  width: 100%
+  height: 300px;
+}
+
+/* Footer subsection
+ */
