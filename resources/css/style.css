@@ -11,3 +11,33 @@ body {
   color: darkblue;
   margin: 0 0;
 }
+
+header {
+  padding: 10px 30px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  background-color: black;
+  border-bottom: 2px solid white;
+}
+
+#menulogo img {
+  width: 200px;
+}
+header a {
+  color: white;
+}
+
+header nav {
+  font-size: 24px;
+  padding-right: 30px;
+}
+
+section {
+  position: relative;
+  top: 150px;
+}
