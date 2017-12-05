@@ -14,6 +14,14 @@ body {
   margin: 0 0;
 }
 
+h2, h3, h4 {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
 header {
   padding: 0 30px 0 10px;
   display: flex;
@@ -47,22 +55,13 @@ header nav span {
   padding: 0 10px;
 }
 
-section {
-  position: relative;
-  top: 75px;
-}
-
-section img {
-  color: white;
-  width: 400px;
-}
-
 /* This section is for the Mission statement block
  */
 
 #mission {
   display: flex;
   justify-content: center;
+  top: 75px;
 }
 
 #mission div {
@@ -80,8 +79,6 @@ section img {
   display: block;
   top: 50px;
   color: seashell;
-  font-size: 40px;
-  text-align: center;
   background-color: black;
   width: 100%;
   padding: 10px 0;
@@ -92,8 +89,6 @@ section img {
   display: block;
   top: 80px;
   color: seashell;
-  font-size: 20px;
-  text-align: center;
   background-color: black;
   width: 100%;
   margin: 0;
@@ -104,15 +99,42 @@ section img {
    This consists of 5 images, 3 on the first row and two on the second row.
    Images are centered on both axes and are 200px high X 300px wide.
  */
+ #featured {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+ }
+
+figure {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+figcaption {
+  display: inline-flex;
+}
+
+ #featured div {
+  width: 1000px;
+  background-color: black;
+ }
+
+ #featured div figure img {
+   height: 200px;
+   width: 300px;
+ }
 
 
 /* Store Locations subsection
  */
 #locations {
-  background-image: url("../images/img-locations-background.jpg")
-  width: 100%
+  background-image: url("../images/img-locations-background.jpg");
+  width: 1200px;
   height: 300px;
 }
+
 
 /* Footer subsection
  */
