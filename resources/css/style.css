@@ -10,8 +10,8 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 90%;
-  margin: 0 0;
+  opacity: 0.9;
+  margin: 0;
 }
 
 h2, h3, h4 {
@@ -22,6 +22,10 @@ figcaption {
   text-align: center;
 }
 
+/* Styles for the top menu bar. This has a black background, company logo (left
+   justified) and a nav section (right justified). The nav section links are
+   underlined. All text colors are seashell.
+ */
 header {
   padding: 0 30px 0 10px;
   display: flex;
@@ -55,7 +59,10 @@ header nav span {
   padding: 0 10px;
 }
 
-/* This section is for the Mission statement block
+/* This section is for the Mission statement block. It consists of text with a
+     white background, centered over an image of an open jar of tea mix. Text
+     block is centered vertically on the background image. The text is centeredd
+     horizontally.
  */
 
 #mission {
@@ -96,8 +103,10 @@ header nav span {
 }
 
 /* Featured tea section (Tea of the month)
-   This consists of 5 images, 3 on the first row and two on the second row.
-   Images are centered on both axes and are 200px high X 300px wide.
+     This consists of a heading, subheading and 5 images, three on the first row
+     and two on the second row, aligned over a black background. Images are
+     centered on both axes and are 200px high X 300px wide.
+     Each image has a caption.
  */
  #featured {
    display: flex;
@@ -186,7 +195,12 @@ figcaption {
 }
 
 
-/* Footer subsection
+/* Footer section. Headings and text on a black background. The contact
+     information is centered. The copyright information is at the bottom and
+     is left justified.
+
+   The contact information is separated in the first <div> to facilitate the
+     centering. This makes 2 distinct blocks in the footer.
  */
 footer {
   display: flex;

@@ -3,6 +3,7 @@
 <!-- Webpage for Tea Cozy. Class project for Codecademy.
      J. Stuart Harris
      1 DEC 2017
+     Last updated: 6 DEC 2017
   -->
   <head>
     <meta charset="utf-8">
@@ -10,14 +11,26 @@
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
   </head>
 
+  <!-- This website consists of a menu bar, 3 sections and a footer. The three
+    sections are:
+          - Mission
+          - Tea of the Month
+          - locations
+       The menu bar contains the company logo, left justified and a nav section
+         with links to the 3 sections identified above.
+       The footer contains contact and copyright information.
+       Each section is identified below with comments.
+    -->
   <body>
     <!-- Header bar/menu for top of website
     -->
     <header>
+      <!-- Company logo, left justified -->
       <div id="menulogo">
         <img src="resources/images/img-tea-cozy-logo.png" alt="Tea Cozy Logo">
       </div>
 
+      <!-- Same page links to the 3 sections. No external links. -->
       <nav>
         <span><a href="#mission">Mission</a></span>
         <span><a href="#featured">Featured Tea</a></span>
@@ -25,7 +38,7 @@
       </nav>
     </header>
 
-    <!-- Main section with Mission, Featured teas and store locations.z
+    <!-- Main section with Mission, Tea of the Month and store locations.
     -->
     <!-- Company Mission section. This includes a text bar over a picture of tea
          leaves in a jar.
@@ -38,32 +51,39 @@
       </div>
     </article>
 
-    <!-- Featured Tea section. A set of five images to highlight special teas.
+    <!-- Featured Tea section. A Heading and a set of five images to highlight
+      special teas. Refer to the css file for section formatting.
       -->
     <article  id="featured">
       <div>
         <h2>Tea of the Month</h2>
         <h4>What's Steeping at The Tea Cozy</h4>
+
+        <!-- Image 1: Berry Blitz -->
         <figure>
           <img src="resources/images/img-berryblitz.jpg" alt="Berry Blitz Tea">
           <figcaption>Fall Berry Blitz Tea</figcaption>
         </figure>
 
+        <!-- Image 2: Spice Rum -->
         <figure>
           <img src="resources/images/img-spiced-rum.jpg" alt="Spiced Rum Tea">
           <figcaption>Spiced Rum Tea</figcaption>
         </figure>
 
+        <!-- Image 3: Donut -->
         <figure>
           <img src="resources/images/img-donut.jpg" alt="donut">
           <figcaption>Seasonal Donut</figcaption>
         </figure>
 
+        <!-- Image 4: Myrtle Ave -->
         <figure>
           <img src="resources/images/img-myrtle-ave.jpg" alt="Myrtle Ave">
           <figcaption>Myrtle Ave Tea</figcaption>
         </figure>
 
+        <!-- Image 5: Bedford -->
         <figure>
           <img src="resources/images/img-bedford-bizarre.jpg" alt="bedford">
           <figcaption>Bedford Bizzare Tea</figcaption>
@@ -72,9 +92,13 @@
       </div>
     </article>
 
+    <!-- Store Locations section. This consists of 3 store locations over a
+      background image.
+    -->
     <article id="locations">
       <div>
 
+        <!-- Location 1: Downtown -->
         <h2>Locations</h2>
         <span>
           <h3>Downtown</h3>
@@ -83,6 +107,7 @@
           <span>Portland, Maine</span>
         </span>
 
+        <!-- Location 2: East Bayside -->
         <span>
           <h3>East Bayside</h3>
           <span>3433 Phisherman's Avenue</span>
@@ -90,6 +115,7 @@
           <span>Portland, Maine</span>
         </span>
 
+        <!-- Location 3: Oakdale -->
         <span>
           <h3>Oakdale</h3>
           <span>515 Crescent Avenue</span>
@@ -100,6 +126,9 @@
       </div>
     </article>
 
+    <!-- Footer section. This contains contact information and the copyright
+      notice. Suggest adding a 'contact link' from the top menu bar.
+      -->
     <footer>
       <div>
         <h2>The Tea Cozy</h2>
